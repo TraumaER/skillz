@@ -1,0 +1,21 @@
+{
+  "name": "skillz",
+  "owner": {
+    "name": "TraumaER"
+  },
+  "metadata": {
+    "description": "A growing collection of AI agent skills, portable across any harness that supports the Agent Skills spec.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "skillz",
+      "source": "./",
+      "description": "A growing collection of AI agent skills, portable across any harness that supports the Agent Skills spec.",
+      "version": "0.1.0",
+      "author": {
+        "name": "TraumaER"
+      }
+    }
+  ]
+}

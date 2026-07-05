@@ -1,0 +1,10 @@
+{
+  "name": "skillz",
+  "version": "0.1.0",
+  "description": "A growing collection of AI agent skills, portable across any harness that supports the Agent Skills spec.",
+  "author": {
+    "name": "TraumaER"
+  },
+  "homepage": "https://github.com/TraumaER/skillz",
+  "repository": "https://github.com/TraumaER/skillz"
+}

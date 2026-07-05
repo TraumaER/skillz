@@ -10,10 +10,21 @@ A collection of AI agent skills, portable across any harness that supports the [
 
 ## Using a skill
 
-Each skill is a self-contained directory under `skills/<name>/` with a `SKILL.md`. To use one, point your harness's skills directory at it — either copy the directory in, or symlink it so this repo stays the single source of truth:
+### Claude Code (as a plugin)
+
+This repo is also a Claude Code plugin marketplace — installing it pulls in every skill above at once:
+
+```
+/plugin marketplace add TraumaER/skillz
+/plugin install skillz@skillz
+```
+
+### Any other harness
+
+Each skill is a self-contained directory under `skills/<name>/` with a `SKILL.md`. Point your harness's skills directory at it — either copy the directory in, or symlink it so this repo stays the single source of truth:
 
 ```sh
-# Claude Code
+# Claude Code (manual, without the plugin above)
 ln -s /path/to/skillz/skills/teach-me ~/.claude/skills/teach-me
 
 # Codex, Copilot CLI, Gemini CLI (cross-runtime path)
